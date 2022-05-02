@@ -47,7 +47,7 @@ function autoglasdienst_register_styles() {
 	wp_enqueue_style( 'fontawesome' );
 
 	// Import Bulma Framework
-	wp_register_style( 'bulma-framework', get_template_directory_uri() . '>/vendor/bulma-0.9.0/css/bulma.min.css' );
+	wp_register_style( 'bulma-framework', get_template_directory_uri() . '/vendor/bulma-0.9.0/css/bulma.min.css' );
 	wp_enqueue_style( 'bulma-framework' );
 
 	// Import Bulma Carousel
@@ -85,14 +85,12 @@ function autoglasdienst_register_scripts() {
 	wp_register_script( 'button-back-to-top', get_template_directory_uri() . '/assets/js/button-back-to-top.js', '', null, true );
 	wp_enqueue_script( 'button-back-to-top' );
 
-
 	// Import Cookie Notice Scripts
 	wp_register_script( 'dywc', get_template_directory_uri() . '/assets/scripts/dywc.js', '', null, true );
 	wp_enqueue_script( 'dywc' );
 
 	wp_register_script( 'cookie-notice', get_template_directory_uri() . '/assets/scripts/cookie-notice.js', '', null, true );
 	wp_enqueue_script( 'cookie-notice' );
-
 
 }
 

@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 	// Der Button wird mit JavaScript erzeugt und vor dem Ende des body eingebunden.
 	var back_to_top_button = ['<a href="#top" class="back-to-top"><img src="https://www.autoglasdienst.at/wp-content/themes/autoglasdienst/assets/img/Button-Top.svg"</a>'].join("");
-	$("body").append(back_to_top_button)
+	jQuery("body").append(back_to_top_button)
 
 	// Der Button wird ausgeblendet
 	jQuery(".back-to-top").hide();

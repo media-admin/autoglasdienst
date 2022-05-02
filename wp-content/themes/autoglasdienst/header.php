@@ -39,7 +39,7 @@
 		<meta name="msapplication-wide310x150logo" content="<?php bloginfo( 'template_directory' ); ?>/assets/img/favicon/mstile-310x150.png"/>
 		<meta name="msapplication-square310x310logo" content="<?php bloginfo( 'template_directory' ); ?>/assets/img/favicon/mstile-310x310.png"/>
 
-		<meta property="og:image" content="<?php the_post_thumbnail();?>" />
+		<meta property="og:image" content="<?php the_post_thumbnail();?>
 
 		<?php wp_enqueue_script( 'jquery' ); ?>
 
