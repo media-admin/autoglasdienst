@@ -4,7 +4,7 @@
 
 	<section class="section__archive">
 
-		<h2 class="article__title"><strong>Archive</strong> Vorlage</h2>
+		<h2 class="article__title"><strong>Blog</strong> Archiv</h2>
 		<hr class="h2__divider">
 
 		<div class="container">

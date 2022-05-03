@@ -207,26 +207,26 @@ section.media-lab {
 	font-family: "Roboto";
 	color: rgb(247,247,247) !important;
 	background-color:#151424;
-    background-image: 
+    background-image:
     	url('../img/Icon-Quarter.svg'),
     	url('../img/Login-BG.png')
     ;
-    background-size: 
-    	100px 120px, 
+    background-size:
+    	100px 120px,
     	55%
     ;
-    background-repeat: 
+    background-repeat:
     	no-repeat,
     	no-repeat
     ;
-    background-origin: 
+    background-origin:
     	border-box,
     	border-box
     ;
-    background-position: 
+    background-position:
     	left bottom,
     	right bottom
-    ;   
+    ;
 }
 
 
@@ -293,7 +293,7 @@ section.media-lab {
 	position: relative !important;
 	width: 100% !important;
 	color: rgb(247,247,247) !important;
-	text-align: center !important; 
+	text-align: center !important;
 	margin-top: 60px !important;
 }
 
@@ -334,35 +334,35 @@ section.media-lab {
 
 
 section.customer {
-	
+
 }
 
 
-.login h1 a {     
+.login h1 a {
     display: block;
-	
+
     min-height: 184px;
 	width: 100%;
-    
+
 	color: #444;
 	font-size: 20px;
     font-weight: 400;
     line-height: 1.3;
     text-decoration: none;
-    
+
     text-indent: -9999px;
     outline: 0;
-    
+
     background-image: none;
 	background-size: 84px;
 	background-position: center top;
 	background-repeat: no-repeat;
-	
+
 	overflow: hidden;
-	
+
 	margin: 0px auto 25px;
 	padding: 0;
-	
+
 }
 
 
@@ -373,7 +373,7 @@ body.login div#login {
 	position: relative;
 	width: 100% !important;
 	max-width: 450px;
-	height: auto !important; 
+	height: auto !important;
 	margin: auto !important;
 }
 
@@ -382,14 +382,14 @@ body.login div#login h1 a {
 	position: relative !important;
     width: 100%;
     height: auto !important;
-    
+
 	font-size: 4.2rem !important;
 	font-weight: 500 !important;
 	text-align: center;
 	text-transform: uppercase;
-	
-	background-image: url('../../../assets/img/Logo.svg');
-    background-size: contain;
+
+	background-image: url('../../../assets/img/Logo-2022-color.svg');
+  background-size: contain;
 }
 
 
@@ -448,7 +448,7 @@ input#pass {
 
 
 
-.wp-core-ui .button, 
+.wp-core-ui .button,
 .wp-core-ui .button-secondary {
 	color: #005576 !important;
 }
@@ -482,17 +482,17 @@ body.login div#login form#loginform p.submit input#wp-submit {
 
 
 @media screen and (min-width: 768px) {
-	
-	
+
+
 	main {
 		width: 100% !important;
 		height: 100% !important;
 		display: inline-block !important;
 		flex-flow: inherit !important;
 	}
-	
-	
-	
+
+
+
 	section.media-lab,
 	section.customer {
 		position: relative !important;
@@ -504,150 +504,150 @@ body.login div#login form#loginform p.submit input#wp-submit {
 		padding: 20px 2% !important;
 		padding-top: 100px !important;
 	}
-	
-	
+
+
 	section.media-lab {
 		position: relative;
 		height: 100vh !important;
 		font-family: 'Roboto';
-		
+
 		color: rgb(247,247,247) !important;
-	
+
 		background-color:#151424;
-	    
-	    background-image: 
+
+	    background-image:
 	    	url('../img/Icon-Quarter.svg'),
 	    	url('../img/Login-BG.png')
 	    ;
-	    
-	    background-size: 
-	    	187px 240px, 
+
+	    background-size:
+	    	187px 240px,
 	    	contain
 	    ;
-	    
-	    background-repeat: 
+
+	    background-repeat:
 	    	no-repeat,
 	    	no-repeat
 	    ;
-	    
-	    background-origin: 
+
+	    background-origin:
 	    	border-box,
 	    	border-box
 	    ;
-	
-	    background-position: 
+
+	    background-position:
 	    	left bottom,
 	    	right bottom
 	    ;
-	    
+
 	    border-right: 3px solid #707070;
-	    
-	}	
-	
-	
-	
+
+	}
+
+
+
 	.media-lab .contact-infos {
 		padding-top: 100px !important;
 		padding-right: 100px !important;
 	}
-	
-	
-	
-	
+
+
+
+
 	.contact-infos,
 	.contact-infos h2 {
 		text-align: right !important;
 	}
-	
-	
+
+
 	.contact-infos .h2__first-row,
 	.contact-infos .h2__second-row {
 		text-align: right !important;
 	}
-	
-	
+
+
 	.contact-infos .h2__first-row {
 		font-size: 1.6rem !important;
 		font-weight: bold !important;
 		margin-bottom: -5px !important;
 	}
-	
-	
+
+
 	.contact-infos .h2__first-row {
 		color: #a11035 !important;
 	}
-	
-	
+
+
 	.contact-infos .h2__second-row {
 		padding-bottom: 5px !important;
 	}
-	
-	
+
+
 	.media-lab hr {
 		position: relative;
 		background-color: #a11035;
 		width: 25%;
 		text-align: left;
 		margin: 0px 0px 0px auto !important;
-	
+
 	}
-	
-	
+
+
 	.media-lab h2 {
 		font-family: 'Roboto Slab' !important;
 		font-size: 1.4rem;
 		margin-bottom: 2%;
 	}
-	
-	
+
+
 	.contact-infos a {
 		color: #a11035 !important;
 		font-weight: bold !important;
 	}
-	
-	
+
+
 	.contact-description {
 		position: relative !important;
 		width: 100% !important;
 		color: rgb(247,247,247) !important;
-		text-align: right !important; 
+		text-align: right !important;
 		margin-top: 60px !important;
 		padding-left: 25% !important;
 	}
-	
-	
+
+
 	.contact-description strong {
 		color: rgb(247,247,247) !important;
 		font-weight: 500 !important;
 	}
-	
-	
+
+
 	.contact-details {
 		margin-top: 20px;
 	}
-	
-	
+
+
 	.contact-details a {
 		color: rgb(247,247,247) !important;
 		font-weight: 500 !important;
 	}
-	
-	
+
+
 	.contact-website {
 		font-family: 'Roboto Slab' !important;
 		font-size: 1.0rem;
 		letter-spacing: 0.1rem;
 		margin-top: 20px;
 	}
-	
-	
+
+
 	.contact-website strong {
 		font-family: 'Roboto Slab' !important;
 		font-size: 1.2rem;
 		font-weight: bold !important;
 		letter-spacing: 0.1rem;
 	}
-	
 
-	
+
+
 }

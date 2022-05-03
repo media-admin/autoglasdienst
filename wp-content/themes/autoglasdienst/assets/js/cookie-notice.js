@@ -1,5 +1,3 @@
-<script>
-
 	document.addEventListener("DOMContentLoaded", function() {
 
 		dywc.init({
@@ -256,4 +254,3 @@
 
 	});
 
-</script>

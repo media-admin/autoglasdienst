@@ -86,10 +86,10 @@ function autoglasdienst_register_scripts() {
 	wp_enqueue_script( 'button-back-to-top' );
 
 	// Import Cookie Notice Scripts
-	wp_register_script( 'dywc', get_template_directory_uri() . '/assets/scripts/dywc.js', '', null, true );
+	wp_register_script( 'dywc', get_template_directory_uri() . '/assets/js/dywc.js', '', null, true );
 	wp_enqueue_script( 'dywc' );
 
-	wp_register_script( 'cookie-notice', get_template_directory_uri() . '/assets/scripts/cookie-notice.js', '', null, true );
+	wp_register_script( 'cookie-notice', get_template_directory_uri() . '/assets/js/cookie-notice.js', '', null, true );
 	wp_enqueue_script( 'cookie-notice' );
 
 }

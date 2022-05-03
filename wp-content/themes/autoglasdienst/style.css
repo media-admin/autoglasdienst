@@ -1934,6 +1934,17 @@ li.course-list__item:before {
 }
 
 
+.all-posts__container {
+	position: relative;
+	display: grid;
+}
+
+
+.all-posts__container .blog-article {
+	margin-bottom: 50px;
+}
+
+
 .card {
 	position: relative !important;
 	margin: 1.5em 1.5em;
@@ -1942,6 +1953,15 @@ li.course-list__item:before {
 
 .card-content {
 	padding: 1.0rem 0.5rem 1.5rem 0.5rem;
+}
+
+
+.blog-article__img {
+	display: block;
+	min-height: 200px;
+	height: auto;
+	width: 100%;
+	overflow: hidden;
 }
 
 
@@ -3405,15 +3425,13 @@ footer {
 
 	/* --- BLOG KATEGORIE SEITE --- */
 
+
+
 	.card {
 		position: relative !important;
 		width: 31% !important;
 		margin: 0.5em auto;
 	}
-
-
-
-
 
 
 

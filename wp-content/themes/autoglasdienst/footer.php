@@ -34,7 +34,7 @@
 	</div>
 
 	<div class="footer__logo">
-		<img src="<?php bloginfo( 'template_directory' ); ?>/assets/img/Logo-white.svg" alt="Logo weiß - Autoglasdienst Martin Rottensteiner">
+		<img src="<?php bloginfo( 'template_directory' ); ?>/assets/img/Logo-2022-white.svg" alt="Logo weiß - Autoglasdienst Martin Rottensteiner">
 	</div>
 
 </footer>
